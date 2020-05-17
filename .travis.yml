@@ -1,9 +1,6 @@
 language:
  - cpp
  
-before_install:
- - sudo apt-get -y install gcc-4.8
-
 script:
  - qmake -std=c++11
  - make
