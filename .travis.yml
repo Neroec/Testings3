@@ -3,7 +3,7 @@ language:
  
 script:
  - qmake
- - make -std=c++11
+ - make
  - ./tests/tests
 
 notifications:
