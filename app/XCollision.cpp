@@ -17,7 +17,7 @@ bool xCollision(int marioWidth, int marioX, int objectWidth, int objectX)
         return false;
 
     // Расстояние между центрами по X
-    int dx = abs((marioX + marioWidth / 2) - (objectX + objectWidth / 2));
+    int dx = std::abs((marioX + marioWidth / 2) - (objectX + objectWidth / 2));
 
     // Расстояние между объектами по X
     int distanceX = dx - marioWidth / 2 - objectWidth / 2;
