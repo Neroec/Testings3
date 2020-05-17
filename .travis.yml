@@ -6,8 +6,7 @@ language:
 addons:
  sonarcloud:
   organization: "neroec"
-  token:
-   secure: $SONAR_TOKEN
+  token: $SONAR_TOKEN
  
 before_install:
  - pip install --user cpp-coveralls
