@@ -24,7 +24,7 @@ vector<int> objectsCollision(int marioWidth, int marioHeight, int marioX, int ma
     objectWidth = objects[1], objectHeight = objects[2];
 
     // Вектор новых координат, скорости по вертикали и стороны коллизии
-    vector<int> collis = { marioX, marioY, marioYVelocity, 0};
+    vector<int> collis (marioX, marioY, marioYVelocity, 0);
 
     // Коллизии нет, если размеры не больше 0
     if (marioWidth <= 0 || marioHeight <= 0 || objectWidth <= 0 || objectHeight <= 0)
