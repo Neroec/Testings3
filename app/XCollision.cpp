@@ -15,7 +15,7 @@ bool xCollision(int marioWidth, int marioX, int objectWidth, int objectX)
     // Ширина всегда больше 0
     if (marioWidth <= 0 || objectWidth <= 0)
         return false;
-
+ 
     // Расстояние между центрами по X
     int dx = abs((marioX + marioWidth / 2) - (objectX + objectWidth / 2));
 
